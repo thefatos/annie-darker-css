@@ -1,0 +1,47 @@
+.theme-dark, .theme-light, :root {
+    --background-primary: #141414;
+    --background-secondary: #111111;
+    --background-secondary-alt: #292929;
+    --background-tertiary: #0c0c0c;
+    --background-accent: #242424;
+    --background-floating: #111111;
+    --background-modifier-hover: rgba(255,255,255,0.01);
+    --background-modifier-active: rgba(255,255,255,0.03);
+    --background-modifier-selected: rgba(255,255,255,0.04);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --channeltextarea-background: var(--background-accent);
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2);
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border-disabled: var(--background-tertiary);
+    --activity-card-background: var(--background-primary);
+    --channels-default: #9f9f9f;
+    --background-message-hover: #00000030;
+    --text-muted: #b6b6b6;
+    --text-normal: #fbfbfb;
+    --interactive-normal: #c8c8c8;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #747474;
+    --header-secondary: #c9c9c9;
+    --toast-background: var(--background-primary);
+    --toast-header: var(--background-tertiary);
+    --toast-contents: var(--background-secondary);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: var(--background-tertiary);
+    --offline-color: rgb(60, 60, 60);
+}
+.theme-dark {
+    --search-popout-option-fade: linear-gradient(90deg,hsla(225,calc(var(--saturation-factor, 1)*7.7%),10.2%,0),hsla(225,calc(var(--saturation-factor, 1)*7.7%),10.2%,1) 80%);
+    --search-popout-option-fade-hover: linear-gradient(90deg,hsla(220,calc(var(--saturation-factor, 1)*7.7%),22.9%,0),hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) 50%);
+    --search-popout-option-user-nickname: var(--text-normal);
+    --search-popout-option-user-username: var(--text-muted);
+    --search-popout-option-filter-text: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
+    --search-popout-option-non-text-color: #caccce;
+    --search-popout-option-filter-color: #caccce;
+    --search-popout-option-answer-color: #caccce;
+    --search-popout-date-picker-border: 1px solid hsla(214,calc(var(--saturation-factor, 1)*9.1%),15.1%,0.3);
+    --search-popout-date-picker-hint-text: #caccce;
+    --search-popout-date-picker-hint-value-text: #fff;
+    --search-popout-date-picker-hint-value-background: var(--brand-experiment);
+    --search-popout-date-picker-hint-value-background-hover: var(--brand-experiment-430);
+}
